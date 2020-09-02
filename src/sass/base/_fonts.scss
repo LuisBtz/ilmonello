@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "Neue Kabel Bold";
+    src: url("../NeueKabel-Bold.eot");
+    src: url("../NeueKabel-Bold.eot?#iefix") format("embedded-opentype"),
+        url("../NeueKabel-Bold.woff2") format("woff2"),
+        url("../NeueKabel-Bold.woff") format("woff"),
+        url("../NeueKabel-Bold.ttf") format("truetype"),
+        url("../NeueKabel-Bold.svg#NeueKabel-Bold") format("svg");
+    font-weight: bold;
+    font-style: bold;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Neue Kabel Book";
+    src: url("../NeueKabel-Book.eot");
+    src: url("../NeueKabel-Book.eot?#iefix") format("embedded-opentype"),
+        url("../NeueKabel-Book.woff2") format("woff2"),
+        url("../NeueKabel-Book.woff") format("woff"),
+        url("../NeueKabel-Book.ttf") format("truetype"),
+        url("../NeueKabel-Book.svg#NeueKabel-Book") format("svg");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Neue Kabel Italic";
+    src: url("../NeueKabel-Italic.eot");
+    src: url("../NeueKabel-Italic.eot?#iefix") format("embedded-opentype"),
+        url("../NeueKabel-Italic.woff2") format("woff2"),
+        url("../NeueKabel-Italic.woff") format("woff"),
+        url("../NeueKabel-Italic.ttf") format("truetype"),
+        url("../NeueKabel-Italic.svg#NeueKabel-Italic") format("svg");
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}

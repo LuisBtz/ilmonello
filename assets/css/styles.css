@@ -1,0 +1,134 @@
+@font-face {
+  font-family: "Neue Kabel Bold";
+  src: url("../NeueKabel-Bold.eot");
+  src: url("../NeueKabel-Bold.eot?#iefix") format("embedded-opentype"), url("../NeueKabel-Bold.woff2") format("woff2"), url("../NeueKabel-Bold.woff") format("woff"), url("../NeueKabel-Bold.ttf") format("truetype"), url("../NeueKabel-Bold.svg#NeueKabel-Bold") format("svg");
+  font-weight: bold;
+  font-style: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Kabel Book";
+  src: url("../NeueKabel-Book.eot");
+  src: url("../NeueKabel-Book.eot?#iefix") format("embedded-opentype"), url("../NeueKabel-Book.woff2") format("woff2"), url("../NeueKabel-Book.woff") format("woff"), url("../NeueKabel-Book.ttf") format("truetype"), url("../NeueKabel-Book.svg#NeueKabel-Book") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Kabel Italic";
+  src: url("../NeueKabel-Italic.eot");
+  src: url("../NeueKabel-Italic.eot?#iefix") format("embedded-opentype"), url("../NeueKabel-Italic.woff2") format("woff2"), url("../NeueKabel-Italic.woff") format("woff"), url("../NeueKabel-Italic.ttf") format("truetype"), url("../NeueKabel-Italic.svg#NeueKabel-Italic") format("svg");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Neue Kabel Book";
+  -moz-osx-font-smoothings: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-size: 16px;
+}
+
+header nav {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+header nav button {
+  border: none;
+  background: none;
+  color: white;
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+header nav button:hover {
+  text-decoration: underline;
+}
+
+header ul.lang {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  list-style: none;
+}
+
+header ul.lang li {
+  display: inline;
+}
+
+header ul.lang li a {
+  color: white;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer .info {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+footer .info p {
+  color: white;
+}
+
+footer .info .social {
+  margin-top: 20px;
+}
+
+footer .info .social img {
+  width: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+footer .boton {
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+}
+
+footer .boton img {
+  width: 130px;
+}
+
+#home {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../images/bg-home.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: coveer;
+}
+
+#home .logo {
+  width: 350px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
